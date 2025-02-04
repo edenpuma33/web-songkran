@@ -213,4 +213,10 @@ display: flex;
 justify-content: center;
 }
 
+img.mapimg{
+    width: 480px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 20px
+}
 }

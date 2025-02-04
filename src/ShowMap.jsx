@@ -118,7 +118,7 @@ return (
     <img
         src={content[selected].img}
         alt="Selected"
-        className="w-240 h-120 rounded-lg shadow-lg"
+        className="mapimg w-240 h-120 rounded-lg shadow-lg"
     />
     <p className="mt-4 text-lg font-semibold">{content[selected].value1}</p>
     <p className="mt-4 text-lg font-semibold">{content[selected].value2}</p>
