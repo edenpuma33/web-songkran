@@ -13,9 +13,8 @@ setMenuOpen(false);
 
 return (
 <div>
-<header className="header">
+<div className="header">
     <nav className="navbar">
-    
     <div className="text-2xl font-medium topbar"><h1>SONGKRANCHACHACHA</h1></div>
     <div className={`nav-links ${menuOpen ? "show" : ""}`} id="navLinks">
         <i className="fa-solid fa-xmark" onClick={hideMenu}></i>
@@ -43,7 +42,7 @@ return (
         </button>
     </div>
     </div>
-</header>
+</div>
 </div>
 );
 };
