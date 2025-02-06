@@ -45,7 +45,6 @@ const Map2 = () => {
             height: '50vh',
             width: '50vw',
             display: 'flex',
-            marginLeft: '25vw'
         }}
       >
         <TileLayer

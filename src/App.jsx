@@ -8,8 +8,8 @@ const App = () => {
     <div>
       <Header/>
       <ShowMap/>
-      <Map/>
-      <Map2/>
+      {/* <Map/>
+      <Map2/> */}
     </div>
   )
 }

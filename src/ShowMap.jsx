@@ -7,6 +7,7 @@ import Map from "./Map";
 
 export default function Showmap() {
 const [selected, setSelected] = useState("option1");
+const [map,setMap] = useState("{<Map/>}");
 
 const content = {
 option1: {
@@ -61,11 +62,12 @@ return (
 
     <div className="flex flex-col gap-4 items-center w-7/8 justify-center">
     <p className="mt-4 text-2xl font-semibold">{content[selected].title}</p>
-    <img
+    {/* <img
         src={content[selected].img}
         alt="Selected"
         className="mapimg w-240 h-120 rounded-lg shadow-lg"
-    /> 
+    />  */}
+    <Map />
     
     <p className="mt-4 text-2xl font-semibold">{content[selected].value1}</p>
     <p className="mt-4 text-lg font-semibold">{content[selected].title1}</p>
