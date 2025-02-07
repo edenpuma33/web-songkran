@@ -142,7 +142,7 @@ export default function Showmap() {
             "ปีนักษัตร",
           ],
         },
-        Element: { data1: ["detail1"], data2: ["detail2"] },
+        // Element: { data1: ["detail1"], data2: ["detail2"] },
       },
     },
     option2: {
