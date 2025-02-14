@@ -1,0 +1,1 @@
+import{ci as i,bD as o,dD as p,dE as s}from"./index-CorgkmYx.js";function x(r,t,e,c){if(i(r.spatialReference,e)){a[0]=r.x,a[1]=r.y;const f=r.z;return a[2]=f??c??0,p(a,r.spatialReference,0,t,e,0)}const n=s(r,e);return!!n&&(t[0]=n==null?void 0:n.x,t[1]=n==null?void 0:n.y,t[2]=(n==null?void 0:n.z)??c??0,!0)}const a=o();export{x as c};
